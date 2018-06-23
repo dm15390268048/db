@@ -58,13 +58,13 @@ setTimeout(() => {
         console.timeEnd('start')
     })
 }, 100);
-setTimeout(() => {
-    console.time('start1')
-    myDb.find('student', {}).then(function (data) {
-        // console.log(data);
-        console.timeEnd('start1')
-    })
-}, 3000);
+// setTimeout(() => {
+//     console.time('start1')
+//     myDb.find('student', {}).then(function (data) {
+//         // console.log(data);
+//         console.timeEnd('start1')
+//     })
+// }, 3000);
 
 var yyDb = Db.getInstance();
 setTimeout(() => {
